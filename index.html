@@ -12,7 +12,8 @@
 </head>
 <body class="bg-black">
     <!-- LA ESTRUCTURA BASICA DE HTML -->
-    <header>
+  <div class="grid__container">
+    <header class="menuPrincipal grid__setter">
         <img class="logo" src="assets/logoDeLaPagina.jpg" alt="logo">
         <!-- Esta etiqueta es la que define el menu de navegacion -->
         <nav>
@@ -25,7 +26,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="contenido grid__setter">
         <section class="principal">
             <h1 class="tituIndex">TÍTULOS PRINCIPALES</h1>
             <h3 class="primerTitulo">Título Del Contenido</h3>
@@ -87,8 +88,21 @@
                 </button>
             </article>
         </aside>
+        <article class="final">
+          <div class="finalUno">
+           <img src="assets/champions.jpeg" alt="">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.   Curabitur id ipsum sit amet tellus cursus ultrices. Nunc posuere, odio ac bibendum faucibus, lorem lacus tincidunt nibh, sit amet mattis est metus vel purus. Nunc nulla tortor, fringilla a molestie porttitor, condimentum eget tortor.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur.</p>
+          </div>
+          <div class="finalDos">
+           <img src="assets/seria a.jpg" alt="">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum sit amet tellus cursus ultrices. Nunc posuere, odio ac bibendum faucibus, lorem lacus tincidunt nibh, sit amet mattis est metus vel purus. Nunc nulla tortor, fringilla a molestie porttitor, condimentum eget tortor.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur.</p>
+          </div> 
+        </article>
     </main>
-    <footer>
+    <footer class="pie grid__setter">
         <img src="assets/logoDeLaPagina.jpg" alt="">
         <nav>
             <ol class="final">
@@ -99,6 +113,7 @@
             </ol>
         </nav>
     </footer>
+  </div>  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
  

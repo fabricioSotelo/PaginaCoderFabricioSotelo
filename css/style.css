@@ -58,13 +58,17 @@ h2{
     font-size: 30px;
     background-color: #ffffff;
     text-align: center;
-    margin: 700px;
+    margin: 100px;
 }
 h3{
     color: #ffffff;
     margin: 15px;
     font-size: 25px;
     text-align: center;
+}
+h4{
+    color: #ffffff;
+    margin: 5px;
 }
 .tituloUno{
     display: flex;
@@ -145,7 +149,34 @@ nav ol a{
     height: 175px;
 }
 .infDos{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.masUno{
+    width: 45%;
     text-align: center;
+    border: dashed #0000ff;
+    margin: 5px;
+}
+.masDos{
+    width: 45%;
+    text-align: center;
+    border: dashed #ffff00;
+    margin: 5px;
+}
+.masTres{
+    width: 45%;
+    text-align: center;
+    border: dashed #008000;
+    margin: 5px;
+    
+}
+.masCuatro{
+    width: 45%;
+    text-align: center;
+    border: dashed #610000;
+    margin: 5px;
 }
 /*Carrusel*/
 .d-img{
@@ -153,4 +184,36 @@ nav ol a{
 }
 .carousel {
     width: 40%;
+}
+/*Grid Container*/
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 3fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "main   main   main   main"
+    "footer footer footer footer"
+}
+.menuPrincipal{
+    grid-area: header;
+}
+.contenido{
+    grid-area: main;
+}
+.pie{
+    grid-area: footer;
+
+}
+.finalUno{
+    display: flex;
+    align-items: center;
+    border: solid #ffffff;
+    margin: 5px;
+}
+.finalDos{
+    display: flex;
+    align-items: center;
+    border: solid #ffffff;
+    margin: 5px;
 }
