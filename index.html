@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-black">
     <!-- LA ESTRUCTURA BASICA DE HTML -->
     <header>
         <img class="logo" src="assets/logoDeLaPagina.jpg" alt="logo">
@@ -17,45 +18,75 @@
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="/index.html">INICIO</a>
-                    <a href="/pages/fútbol.html">FÚTBOL</a>
-                    <a href="/pages/básquetbol.html">BÁSQUETBOL</a>
+                    <a href="./index.html">INICIO</a>
+                    <a href="./pages/fútbol.html">FÚTBOL</a>
+                    <a href="./pages/básquetbol.html">BÁSQUETBOL</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>TÍTULOS PRINCIPALES</h1>
-            <h3>Título Del Contenido</h3>
-         <article class="tituloUno">
-            <img class="imgUno" src="assets/boca.coder.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum sit amet tellus cursus ultrices. Nunc posuere, odio ac bibendum faucibus, lorem lacus tincidunt nibh, sit amet mattis est metus vel purus. Nunc nulla tortor, fringilla a molestie porttitor, condimentum eget tortor.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur. Proin pretium erat eros. Integer vitae urna aliquam magna facilisis sagittis. Aliquam felis risus, egestas vel ligula vitae, interdum ultrices nunc. Nam non est sed neque efficitur pellentesque. Nam non dui arcu. Aliquam erat volutpat. Quisque odio tellus, laoreet a auctor a, vestibulum non augue.
-            Vivamus gravida fermentum ante sed iaculis. Suspendisse eget euismod sem, a venenatis nulla. In ut sagittis quam, nec consectetur massa. Etiam viverra id ligula tincidunt semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas posuere ac turpis id dictum. Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.<button class="botonesMas">Ver más</button>
-            </p>
-         </article>
+        <section class="principal">
+            <h1 class="tituIndex">TÍTULOS PRINCIPALES</h1>
+            <h3 class="primerTitulo">Título Del Contenido</h3>
+          <article class="tituloUno">
+             <img src="assets/boca.coder.jpg" alt="">
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum sit amet tellus cursus ultrices. Nunc posuere, odio ac bibendum faucibus, lorem lacus tincidunt nibh, sit amet mattis est metus vel purus. Nunc nulla tortor, fringilla a molestie porttitor, condimentum eget tortor.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur. Proin pretium erat eros. Integer vitae urna aliquam magna facilisis sagittis. Aliquam felis risus, egestas vel ligula vitae, interdum ultrices nunc. Nam non est sed neque efficitur pellentesque. Nam non dui arcu. Aliquam erat volutpat. Quisque odio tellus, laoreet a auctor a, vestibulum non augue.
+             Vivamus gravida fermentum ante sed iaculis. Suspendisse eget euismod sem, a venenatis nulla. In ut sagittis quam, nec consectetur massa. Etiam viverra id ligula tincidunt semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas posuere ac turpis id dictum. Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.<button class="botonesMas">Ver más</button>
+             </p>
+          </article>
             <h3 class="segundoTitulo">Título del Contenido</h3>
-         <article class="tituloDos">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum sit amet tellus cursus ultrices. Nunc posuere, odio ac bibendum faucibus, lorem lacus tincidunt nibh, sit amet mattis est metus vel purus. Nunc nulla tortor, fringilla a molestie porttitor, condimentum eget tortor.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur. Proin pretium erat eros. Integer vitae urna aliquam magna facilisis sagittis. Aliquam felis risus, egestas vel ligula vitae, interdum ultrices nunc. Nam non est sed neque efficitur pellentesque. Nam non dui arcu. Aliquam erat volutpat. Quisque odio tellus, laoreet a auctor a, vestibulum non augue.
-            Vivamus gravida fermentum ante sed iaculis. Suspendisse eget euismod sem, a venenatis nulla. In ut sagittis quam, nec consectetur massa. Etiam viverra id ligula tincidunt semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas posuere ac turpis id dictum. Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.<button class="botonesMas">Ver más</button></p>
-            <img class="imgDos" src="assets/riBer.coder.jpg" alt="">
-         </article>
+          <article class="tituloDos">
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum sit amet tellus cursus ultrices. Nunc posuere, odio ac bibendum faucibus, lorem lacus tincidunt nibh, sit amet mattis est metus vel purus. Nunc nulla tortor, fringilla a molestie porttitor, condimentum eget tortor.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend orci vel mattis feugiat. Maecenas nec mi et nisl laoreet efficitur. Proin pretium erat eros. Integer vitae urna aliquam magna facilisis sagittis. Aliquam felis risus, egestas vel ligula vitae, interdum ultrices nunc. Nam non est sed neque efficitur pellentesque. Nam non dui arcu. Aliquam erat volutpat. Quisque odio tellus, laoreet a auctor a, vestibulum non augue.
+             Vivamus gravida fermentum ante sed iaculis. Suspendisse eget euismod sem, a venenatis nulla. In ut sagittis quam, nec consectetur massa. Etiam viverra id ligula tincidunt semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas posuere ac turpis id dictum. Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.Etiam tincidunt neque elit, sit amet fringilla purus pellentesque et. Nullam nec dignissim velit, sed viverra libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel turpis at neque mattis sodales.<button class="botonesMas">Ver más</button></p>
+             <img class="imgDos" src="assets/riBer.coder.jpg" alt="">
+          </article>
         </section>
 
+        <h2>MÁS INFORMACIÓN</h2>
         <!-- "CARRUSEL" -->
-        <section class="sectionDos">
-            <h2>MÁS INFORMACIÓN</h2>
-            <div class="masInformacion">
-                <img class="imgInfMas" src="assets/campazzo1.jpg" alt="">
-                <img class="imgInfMas" src="assets/argentina-uruguay.webp" alt="">
-                <img class="imgMasInfUno" src="assets/Lamine Yamal Raphinha Barcelona.jpg" alt="">
-                <img class="imgInfMas" src="assets/00024013-04.jpg" alt="">
-                <img class="imgInfMas" src="assets/acb1.webp" alt="">
-            </div>
-            <button>VER</button>
-        </section>
+        <aside class="sectionDos">
+            <article id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-item">
+                    <img src="assets/campazzo1.jpg" class="d-block w-100 d-img" alt="slider 1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="bg-black">¡ El Básquet Argentino a un paso del mundial !</h4>
+                      <p class="bg-black">La Seleccion Argentina de Básquet ganó y se juega todo en la última fecha para clasificar al mundial</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-item">
+                    <img src="assets/argentina-uruguay.webp" class="d-block w-100 d-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="bg-primary">Uruguay 0 Argentina 1</h4>
+                      <p class="bg-primary">La Selección Argentina de fútbol le ganó a uruguay, y se quedó a un paso del mundial 2026.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-item">
+                    <img src="assets/00024013-04.jpg" class="d-block w-100 d-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="bg-info">Racing Club 2 Botafogo 0</h4>
+                      <p class="bg-info">Racing ganó y dio un gran paso, la semana que viene define en Brasil para ver quién es el nuevo campeón de la Recopa Sudamericana</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </article>
+        </aside>
     </main>
     <footer>
         <img src="assets/logoDeLaPagina.jpg" alt="">
@@ -68,6 +99,8 @@
             </ol>
         </nav>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
  
 </body>
 </html>
